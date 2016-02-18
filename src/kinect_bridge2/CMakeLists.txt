@@ -104,6 +104,10 @@ else()
 
 	set( Poco_DIR cmake)
 
+	set( PNG_INCDIR "/usr/local/include" )
+	set( PNG_LIBDIR "/usr/local/lib" )
+	set( PNG_LIBS png12 z )
+
 	find_package(Poco REQUIRED COMPONENTS Foundation Net Util)
 
 	add_message_files(
@@ -131,6 +135,9 @@ else()
 	include_directories(include ${roscpp_INCLUDE_DIRS} 
 	  ${catkin_INCLUDE_DIRS} ${Poco_INCLUDE_DIRS}
 	)
+
+	include_directories( "${PNG_INCDIR}" )
+	link_directories( "${PNG_LIBDIR}" )
 
 	add_library(atomics
 	   src/atomics/assert.cpp
@@ -175,6 +182,7 @@ else()
 	   atomics
 	   messages
 	   ${Poco_LIBRARIES}
+	   ${PNG_LIBS} 
 	)
 
 
