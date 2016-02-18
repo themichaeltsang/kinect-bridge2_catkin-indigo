@@ -1,0 +1,35 @@
+﻿Build started 7/6/2015 10:57:08 AM.
+     1>Project "D:\workspace\kinect_bridge2\deps\libpng1617\projects\vstudio\zlib\zlib.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX /Ox /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D Z_SOLO /Gm- /EHsc /MD /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /FR"x64\Release\\" /Gd /TC /errorReport:prompt "..\..\..\..\zlib-1.2.8\adler32.c" "..\..\..\..\zlib-1.2.8\compress.c" "..\..\..\..\zlib-1.2.8\crc32.c" "..\..\..\..\zlib-1.2.8\deflate.c" "..\..\..\..\zlib-1.2.8\infback.c" "..\..\..\..\zlib-1.2.8\inffast.c" "..\..\..\..\zlib-1.2.8\inflate.c" "..\..\..\..\zlib-1.2.8\inftrees.c" "..\..\..\..\zlib-1.2.8\trees.c" "..\..\..\..\zlib-1.2.8\uncompr.c" "..\..\..\..\zlib-1.2.8\zutil.c"
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         infback.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         trees.c
+         uncompr.c
+         zutil.c
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"D:\workspace\kinect_bridge2\deps\libpng1617\projects\vstudio\x64\Release\zlib.lib" /NOLOGO /MACHINE:X64 /LTCG x64\Release\adler32.obj
+         x64\Release\compress.obj
+         x64\Release\crc32.obj
+         x64\Release\deflate.obj
+         x64\Release\infback.obj
+         x64\Release\inffast.obj
+         x64\Release\inflate.obj
+         x64\Release\inftrees.obj
+         x64\Release\trees.obj
+         x64\Release\uncompr.obj
+         x64\Release\zutil.obj
+         zlib.vcxproj -> D:\workspace\kinect_bridge2\deps\libpng1617\projects\vstudio\x64\Release\zlib.lib
+       BscMake:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o"D:\workspace\kinect_bridge2\deps\libpng1617\projects\vstudio\x64\Release\zlib.bsc" x64\Release\adler32.sbr x64\Release\compress.sbr x64\Release\crc32.sbr x64\Release\deflate.sbr x64\Release\infback.sbr x64\Release\inffast.sbr x64\Release\inflate.sbr x64\Release\inftrees.sbr x64\Release\trees.sbr x64\Release\uncompr.sbr x64\Release\zutil.sbr
+     1>Done Building Project "D:\workspace\kinect_bridge2\deps\libpng1617\projects\vstudio\zlib\zlib.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.73

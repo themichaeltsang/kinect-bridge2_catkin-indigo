@@ -1,0 +1,36 @@
+﻿Build started 7/9/2015 1:10:27 AM.
+     1>Project "E:\workspace\kinect_bridge2\deps\libpng1617\projects\vstudio\zlib\zlib.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W0 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D Z_SOLO /Gm- /EHsc /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /FR"x64\Debug\\" /Gd /TC /errorReport:prompt "..\..\..\..\zlib-1.2.8\adler32.c" "..\..\..\..\zlib-1.2.8\compress.c" "..\..\..\..\zlib-1.2.8\crc32.c" "..\..\..\..\zlib-1.2.8\deflate.c" "..\..\..\..\zlib-1.2.8\infback.c" "..\..\..\..\zlib-1.2.8\inffast.c" "..\..\..\..\zlib-1.2.8\inflate.c" "..\..\..\..\zlib-1.2.8\inftrees.c" "..\..\..\..\zlib-1.2.8\trees.c" "..\..\..\..\zlib-1.2.8\uncompr.c" "..\..\..\..\zlib-1.2.8\zutil.c"
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         infback.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         trees.c
+         uncompr.c
+         zutil.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"E:\workspace\kinect_bridge2\deps\libpng1617\projects\vstudio\x64\Debug\zlib.lib" /NOLOGO /MACHINE:X64 x64\Debug\adler32.obj
+         x64\Debug\compress.obj
+         x64\Debug\crc32.obj
+         x64\Debug\deflate.obj
+         x64\Debug\infback.obj
+         x64\Debug\inffast.obj
+         x64\Debug\inflate.obj
+         x64\Debug\inftrees.obj
+         x64\Debug\trees.obj
+         x64\Debug\uncompr.obj
+         x64\Debug\zutil.obj
+         zlib.vcxproj -> E:\workspace\kinect_bridge2\deps\libpng1617\projects\vstudio\x64\Debug\zlib.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o"E:\workspace\kinect_bridge2\deps\libpng1617\projects\vstudio\x64\Debug\zlib.bsc" x64\Debug\adler32.sbr x64\Debug\compress.sbr x64\Debug\crc32.sbr x64\Debug\deflate.sbr x64\Debug\infback.sbr x64\Debug\inffast.sbr x64\Debug\inflate.sbr x64\Debug\inftrees.sbr x64\Debug\trees.sbr x64\Debug\uncompr.sbr x64\Debug\zutil.sbr
+     1>Done Building Project "E:\workspace\kinect_bridge2\deps\libpng1617\projects\vstudio\zlib\zlib.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.86

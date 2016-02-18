@@ -1,0 +1,50 @@
+﻿Build started 7/6/2015 10:57:09 AM.
+     1>Project "D:\workspace\kinect_bridge2\deps\libpng1617\projects\vstudio\libpng\libpng.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"..\..\..\..\zlib-1.2.8" /Zi /nologo /W4 /WX /Ox /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /fp:except- /Zc:wchar_t- /Zc:forScope /Yc"pngpriv.h" /Fp"x64\Release\libpng16.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /FR"x64\Release\\" /Gd /TC /wd4996 /wd4127 /errorReport:prompt ..\..\..\png.c
+         png.c
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"..\..\..\..\zlib-1.2.8" /Zi /nologo /W4 /WX /Ox /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /fp:except- /Zc:wchar_t- /Zc:forScope /Yu"pngpriv.h" /Fp"x64\Release\libpng16.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /FR"x64\Release\\" /Gd /TC /wd4996 /wd4127 /errorReport:prompt ..\..\..\pngerror.c ..\..\..\pngget.c ..\..\..\pngmem.c ..\..\..\pngpread.c ..\..\..\pngread.c ..\..\..\pngrio.c ..\..\..\pngrtran.c ..\..\..\pngrutil.c ..\..\..\pngset.c ..\..\..\pngtrans.c ..\..\..\pngwio.c ..\..\..\pngwrite.c ..\..\..\pngwtran.c ..\..\..\pngwutil.c
+         pngerror.c
+         pngget.c
+         pngmem.c
+         pngpread.c
+         pngread.c
+         pngrio.c
+         pngrtran.c
+         pngrutil.c
+         pngset.c
+         pngtrans.c
+         pngwio.c
+         pngwrite.c
+         pngwtran.c
+         pngwutil.c
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"x64\Release\pngwin.res" ..\..\..\scripts\pngwin.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\workspace\kinect_bridge2\deps\libpng1617\projects\vstudio\x64\Release\libpng16.dll" /VERSION:"16" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\workspace\kinect_bridge2\deps\libpng1617\projects\vstudio\x64\Release\ zlib.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\workspace\kinect_bridge2\deps\libpng1617\projects\vstudio\x64\Release\libpng16.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\workspace\kinect_bridge2\deps\libpng1617\projects\vstudio\x64\Release\libpng16.lib" /MACHINE:X64 /DLL x64\Release\pngwin.res
+         x64\Release\png.obj
+         x64\Release\pngerror.obj
+         x64\Release\pngget.obj
+         x64\Release\pngmem.obj
+         x64\Release\pngpread.obj
+         x64\Release\pngread.obj
+         x64\Release\pngrio.obj
+         x64\Release\pngrtran.obj
+         x64\Release\pngrutil.obj
+         x64\Release\pngset.obj
+         x64\Release\pngtrans.obj
+         x64\Release\pngwio.obj
+         x64\Release\pngwrite.obj
+         x64\Release\pngwtran.obj
+         x64\Release\pngwutil.obj
+            Creating library D:\workspace\kinect_bridge2\deps\libpng1617\projects\vstudio\x64\Release\libpng16.lib and object D:\workspace\kinect_bridge2\deps\libpng1617\projects\vstudio\x64\Release\libpng16.exp
+         Generating code
+         Finished generating code
+         libpng.vcxproj -> D:\workspace\kinect_bridge2\deps\libpng1617\projects\vstudio\x64\Release\libpng16.dll
+       BscMake:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o"D:\workspace\kinect_bridge2\deps\libpng1617\projects\vstudio\x64\Release\libpng16.bsc" x64\Release\png.sbr x64\Release\pngerror.sbr x64\Release\pngget.sbr x64\Release\pngmem.sbr x64\Release\pngpread.sbr x64\Release\pngread.sbr x64\Release\pngrio.sbr x64\Release\pngrtran.sbr x64\Release\pngrutil.sbr x64\Release\pngset.sbr x64\Release\pngtrans.sbr x64\Release\pngwio.sbr x64\Release\pngwrite.sbr x64\Release\pngwtran.sbr x64\Release\pngwutil.sbr
+     1>Done Building Project "D:\workspace\kinect_bridge2\deps\libpng1617\projects\vstudio\libpng\libpng.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.72

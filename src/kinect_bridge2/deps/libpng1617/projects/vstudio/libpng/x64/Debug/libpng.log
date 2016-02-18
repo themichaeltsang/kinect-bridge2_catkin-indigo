@@ -1,0 +1,50 @@
+﻿Build started 7/9/2015 1:10:28 AM.
+     1>Project "E:\workspace\kinect_bridge2\deps\libpng1617\projects\vstudio\libpng\libpng.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"..\..\..\..\zlib-1.2.8" /Zi /nologo /W4 /WX /Od /Oi /GL /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D _WINDLL /D _MBCS /GF /Gm- /EHsc /RTC1 /MDd /GS /Gy /fp:precise /fp:except- /Zc:wchar_t- /Zc:forScope /Yc"pngpriv.h" /Fp"x64\Debug\libpng16.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /FR"x64\Debug\\" /Gd /TC /wd4996 /wd4127 /errorReport:prompt ..\..\..\png.c
+         png.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"..\..\..\..\zlib-1.2.8" /Zi /nologo /W4 /WX /Od /Oi /GL /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D _WINDLL /D _MBCS /GF /Gm- /EHsc /RTC1 /MDd /GS /Gy /fp:precise /fp:except- /Zc:wchar_t- /Zc:forScope /Yu"pngpriv.h" /Fp"x64\Debug\libpng16.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /FR"x64\Debug\\" /Gd /TC /wd4996 /wd4127 /errorReport:prompt ..\..\..\pngerror.c ..\..\..\pngget.c ..\..\..\pngmem.c ..\..\..\pngpread.c ..\..\..\pngread.c ..\..\..\pngrio.c ..\..\..\pngrtran.c ..\..\..\pngrutil.c ..\..\..\pngset.c ..\..\..\pngtrans.c ..\..\..\pngwio.c ..\..\..\pngwrite.c ..\..\..\pngwtran.c ..\..\..\pngwutil.c
+         pngerror.c
+         pngget.c
+         pngmem.c
+         pngpread.c
+         pngread.c
+         pngrio.c
+         pngrtran.c
+         pngrutil.c
+         pngset.c
+         pngtrans.c
+         pngwio.c
+         pngwrite.c
+         pngwtran.c
+         pngwutil.c
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"x64\Debug\pngwin.res" ..\..\..\scripts\pngwin.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\workspace\kinect_bridge2\deps\libpng1617\projects\vstudio\x64\Debug\libpng16.dll" /VERSION:"16" /INCREMENTAL:NO /NOLOGO /LIBPATH:E:\workspace\kinect_bridge2\deps\libpng1617\projects\vstudio\x64\Debug\ zlib.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\workspace\kinect_bridge2\deps\libpng1617\projects\vstudio\x64\Debug\libpng16.pdb" /SUBSYSTEM:WINDOWS /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\workspace\kinect_bridge2\deps\libpng1617\projects\vstudio\x64\Debug\libpng16.lib" /MACHINE:X64 /DLL x64\Debug\pngwin.res
+         x64\Debug\png.obj
+         x64\Debug\pngerror.obj
+         x64\Debug\pngget.obj
+         x64\Debug\pngmem.obj
+         x64\Debug\pngpread.obj
+         x64\Debug\pngread.obj
+         x64\Debug\pngrio.obj
+         x64\Debug\pngrtran.obj
+         x64\Debug\pngrutil.obj
+         x64\Debug\pngset.obj
+         x64\Debug\pngtrans.obj
+         x64\Debug\pngwio.obj
+         x64\Debug\pngwrite.obj
+         x64\Debug\pngwtran.obj
+         x64\Debug\pngwutil.obj
+            Creating library E:\workspace\kinect_bridge2\deps\libpng1617\projects\vstudio\x64\Debug\libpng16.lib and object E:\workspace\kinect_bridge2\deps\libpng1617\projects\vstudio\x64\Debug\libpng16.exp
+         Generating code
+         Finished generating code
+         libpng.vcxproj -> E:\workspace\kinect_bridge2\deps\libpng1617\projects\vstudio\x64\Debug\libpng16.dll
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o"E:\workspace\kinect_bridge2\deps\libpng1617\projects\vstudio\x64\Debug\libpng16.bsc" x64\Debug\png.sbr x64\Debug\pngerror.sbr x64\Debug\pngget.sbr x64\Debug\pngmem.sbr x64\Debug\pngpread.sbr x64\Debug\pngread.sbr x64\Debug\pngrio.sbr x64\Debug\pngrtran.sbr x64\Debug\pngrutil.sbr x64\Debug\pngset.sbr x64\Debug\pngtrans.sbr x64\Debug\pngwio.sbr x64\Debug\pngwrite.sbr x64\Debug\pngwtran.sbr x64\Debug\pngwutil.sbr
+     1>Done Building Project "E:\workspace\kinect_bridge2\deps\libpng1617\projects\vstudio\libpng\libpng.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.73
