@@ -20,4 +20,16 @@ On the Windows side:
 	http://robotics.usc.edu/~ekaszubski/files/kinect_bridge2-deps.tar.gz
 
 5.) In the root of the kinect_bridge2 folder, exectue:
-	mkdir build; cd build
+	mkdir build
+
+6.) This next step involves generating the project files, so it can either be done from the command line or with the cmake gui.
+	Using the cmake gui, make sure that the source code is from the kinect_bridge2 folder, and the binaries are built in kinect_bridge2/build
+	If using the command line, execute cmake .. -G "Visual Studio 12 2013 Win64"
+
+7.) Open up kinect_bridge2.sln file from within the build folder you just created.
+
+8.) Set the build type to "Release" in Visual Studio. Then right click on "kinect_server" and select "build".
+
+9.) In the command line, type ipconfig. Copy the IPv4 Address.
+
+10.) In the kinect_bridge2 folder, go to bin/Release, and run ./kinect_server.exe --listen-ip <IPv4 Address>
