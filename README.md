@@ -33,3 +33,13 @@ On the Windows side:
 9.) In the command line, type ipconfig. Copy the IPv4 Address.
 
 10.) In the kinect_bridge2 folder, go to bin/Release, and run ./kinect_server.exe --listen-ip <IPv4 Address>
+
+On the Ubuntu Side,
+
+1.) Run catkin_make.
+
+2.) Execute source devel/setup.bash.
+
+3.) Execute roslaunch kinect_bridge2 kinect_client.launch server_ip:=<IPv4 Address>
+
+***You may have to run sudo apt-get install libsndfile1-dev libpng12-dev
