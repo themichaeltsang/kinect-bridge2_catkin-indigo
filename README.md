@@ -3,7 +3,7 @@ A kinect2 bridge between windows and ubuntu for ros-indigo, catkin-buildsystem
 
 The following steps illustrate how to set up the kinect_bridge2:
 
-On the Windows side:
+## Windows Side
 
  1. Clone the repository.
 
@@ -46,11 +46,10 @@ On the Windows side:
     ```
     If there are messages, you can skip the following step.
 
-14.) By default, the Windows Firewall prevents any messages from going through the web socket. This is why there were not any messages sent in the above step. In order to change this, we need to create a new rule. Navigate to the Windows Control Panel. Select System and Security. Then select Windows Firewall. From here, select Advanced Settings on the left hand side. Select Inbound Rules on the top left. Double click kinect_server.exe, and update the action to allow the connection.
+ 14. By default, the Windows Firewall prevents any messages from going through the web socket. This is why there were not any messages sent in the above step. In order to change this, we need to create a new rule. Navigate to the Windows Control Panel. Select System and Security. Then select Windows Firewall. From here, select Advanced Settings on the left hand side. Select Inbound Rules on the top left. Double click `kinect_server.exe`, and update the action to allow the connection.
+ *Note*: Running step 13 is necessary for step 14 or else the executable will not appear in Inbound Rules.
 
-Note: Running step 13 is necessary for step 14 or else the executable will not appear in Inbound Rules.
-
-On the Ubuntu Side,
+## Ubuntu Side
 
 ```
 catkin_make
@@ -58,4 +57,4 @@ source devel/setup.bash
 roslaunch kinect_bridge2 kinect_client.launch server_ip:=<IPv4 Address>
 ```
 
-***If the above doesn't work you may have to run sudo apt-get install libsndfile1-dev libpng12-dev
+***If the above doesn't work you may have to run `sudo apt-get install libsndfile1-dev libpng12-dev`
