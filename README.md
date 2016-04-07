@@ -5,24 +5,18 @@ The following steps illustrate how to set up the kinect_bridge2:
 
 On the Windows side:
 
-1.) Clone the repository.
+ 1. Clone the repository.
 
-2.) Download and install: Microsoft Visual Studio Community 2013 (w/ Update 5) from
+ 2. Download and install: Microsoft Visual Studio Community 2013 (w/ Update 5) from [here](https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx).
+    To find this version, click Visual Studio 2013 under the Visual Studio Downloads title. Then click the tab Community 2013 to bring you to the correct version.
+    For downloading, keep the "Web Installer Format" option ticked.
+    For installing, keep the default "optional features to install" in the installation window.
 
-<https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx> 
-
-To find this version, click Visual Studio 2013 under the Visual Studio Downloads title. Then click the tab Community 2013 to bring you to the correct version.
-For downloading, keep the "Web Installer Format" option ticked.
-For installing, keep the default "optional features to install" in the installation window.
-
-3.) Download cmake from: 
-
-<https://cmake.org/files/v3.3/> --> cmake-3.3.2-win32-x86.exe)
-
-Add CMake to the system PATH for all users.
-```
-iff C:/Program Files (x86)/Cmake 2.8/bin/cmake.exe??? then set PATH="C:/Program files (x86)/Cmake 2.8/bin/";%PATH%
-```
+ 3. Download cmake from [https://cmake.org/files/v3.3/](https://cmake.org/files/v3.3/) --> cmake-3.3.2-win32-x86.exe
+    Add CMake to the system PATH for all users:
+    ```
+    iff C:/Program Files (x86)/Cmake 2.8/bin/cmake.exe??? then set PATH="C:/Program files (x86)/Cmake 2.8/bin/";%PATH%
+    ```
 
 4.) Remove the deps folder that currently exists in the root of the kinect_bridge2 folder. Untar the following deps folder (Winzip is a good tool to use for this) and place it in the root of kinect_bridge2
 
@@ -78,7 +72,7 @@ On the Ubuntu Side,
 ```
 catkin_make
 source devel/setup.bash
-kinect_bridge2 kinect_client.launch server_ip:=<IPv4 Address>
+roslaunch kinect_bridge2 kinect_client.launch server_ip:=<IPv4 Address>
 ```
 
 ***If the above doesn't work you may have to run sudo apt-get install libsndfile1-dev libpng12-dev
